@@ -1,0 +1,19 @@
+.navigation {
+  width: 100vw;
+  height: 100px;
+  @include verticalCenter;
+  ul {
+    display: flex;
+    list-style: none;
+
+    a {
+      text-decoration: none;
+
+      li {
+        cursor: pointer;
+        padding: 20px;
+        color: $black_color;
+      }
+    }
+  }
+}

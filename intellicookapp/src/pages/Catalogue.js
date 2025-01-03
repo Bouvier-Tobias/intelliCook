@@ -1,13 +1,13 @@
 import React from "react";
 import Navigation from "../components/Navigation";
 
-const Home = () => {
+const Catalogue = () => {
   return (
-    <div className="home">
+    <div className="catalogue">
       <Navigation />
-      <h1>Accueil</h1>
+      <h1>Catalogue</h1>
     </div>
   );
 };
 
-export default Home;
+export default Catalogue;

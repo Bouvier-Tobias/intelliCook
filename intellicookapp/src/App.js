@@ -1,10 +1,18 @@
 import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Catalogue from "./pages/Catalogue";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
-    <div>
-      <h1>IntelliCook</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {/* path="*" fonctionne si jamais l'url ne correspond a rien */}
+        <Route path="*" element={<Home />} />
+        <Route path="/Catalogue" element={<Catalogue />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 
