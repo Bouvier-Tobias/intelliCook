@@ -1,14 +1,14 @@
 import React from "react";
 import Navigation from "../components/Navigation";
 
-const Catalogue = () => {
+const Panier = () => {
   return (
-    <div className="catalogue">
+    <div className="panier">
       <Navigation />
       <img src="./logo_version_claire.png" alt="" />
-      <h1>Catalogue</h1>
+      <h1>Panier</h1>
     </div>
   );
 };
 
-export default Catalogue;
+export default Panier;

@@ -1,18 +1,28 @@
 .navigation {
-  width: 100vw;
-  height: 100px;
-  @include verticalCenter;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+
   ul {
     display: flex;
     list-style: none;
+    font-size: 1.2em;
+    gap: 60px;
+    font-family: $content-font;
+    font-weight: 600;
 
     a {
       text-decoration: none;
 
       li {
         cursor: pointer;
-        padding: 20px;
         color: $black_color;
+
+        &:hover {
+          color: blue;
+        }
       }
     }
   }
