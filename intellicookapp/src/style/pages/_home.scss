@@ -4,15 +4,32 @@
   height: 795px;
 
   .logo {
-    padding-top: 20px;
+    padding-top: 10px;
     img {
       width: 90px;
     }
   }
+}
+.section_Title {
+  background: url(../../assets/images/image_fond_accueil.jpg) center/cover;
+  height: 80%;
+  padding-top: 70px;
+  @include verticalCenter;
+  flex-direction: column;
 
-  h1 {
+  .title_Home {
     font-family: $title-font;
+    margin-top: -200px;
     font-size: 24px;
-    padding-top: 20px;
+    color: $white-color;
+  }
+
+  p {
+    margin-top: 90px;
+    color: $white-color;
+    font-size: 1.2em;
+    font-family: $content-font;
+    font-weight: 700;
+    width: 250px;
   }
 }
