@@ -11,8 +11,10 @@
   }
 }
 .section_Title {
-  background: url(../../assets/images/image_fond_accueil.jpg) center/cover;
+  background: url(../../assets/images/image_fond_accueil_modifiee.jpg)
+    center/cover;
   height: 80%;
+  width: 100%;
   padding-top: 70px;
   @include verticalCenter;
   flex-direction: column;

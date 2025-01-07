@@ -13,6 +13,8 @@
   @include verticalCenter;
   gap: 50px;
   margin-top: 30px;
+  z-index: 0;
+
   button {
     width: 100px;
     background-color: #fff;
@@ -22,14 +24,16 @@
     font-size: 1em;
     font-weight: 600;
     padding: 10px 5px;
+
+    &:hover {
+      cursor: pointer;
+      background-color: red;
+    }
   }
 
-  button:hover {
-    cursor: pointer;
+  ::placeholder {
+    font-family: $content-font;
+    color: gray;
+    font-size: 1.2em;
   }
-}
-::placeholder {
-  font-family: $content-font;
-  color: gray;
-  font-size: 1.2em;
 }
