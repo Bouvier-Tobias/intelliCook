@@ -16,12 +16,12 @@ const Navigation = () => {
           />
           <li>Catalogue</li>
         </NavLink>
-        <NavLink to="/Panier">
+        <NavLink to="/Favoris">
           <img
             src="./icones/Icone-Heart.svg"
             alt="Icone de coeur pour favoris"
           />
-          <li>Panier</li>
+          <li>Favoris</li>
         </NavLink>
       </ul>
     </div>
