@@ -10,7 +10,7 @@ export default function Catalogue() {
       .catch((error) => console.log(error));
   }, []);
   function ListCatalogue() {
-    return recette.slice(0, 20).map((element, index) => {
+    return recette.slice(0, 2).map((element, index) => {
       return (
         <div className="recette">
           <ul>

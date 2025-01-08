@@ -4,14 +4,18 @@ import { NavLink } from "react-router-dom";
 const Navigation = () => {
   return (
     <div className="navigation">
-      <img className="logo" src="./logo_version_claire.png" alt="" />
       <ul>
         <NavLink to="/">
-          <img src="./icones/Icone-Home.svg" alt="Icone de l'accueil" />
+          <img
+            className="icon"
+            src="./icones/Icone-Home.svg"
+            alt="Icone de l'accueil"
+          />
           <li>Accueil</li>
         </NavLink>
         <NavLink to="/Catalogue">
           <img
+            className="icon"
             src="./icones/Icone-Book.svg"
             alt="Icone de livres pour le catalogue"
           />
@@ -19,6 +23,7 @@ const Navigation = () => {
         </NavLink>
         <NavLink to="/Favoris">
           <img
+            className="icon"
             src="./icones/Icone-Heart.svg"
             alt="Icone de coeur pour favoris"
           />

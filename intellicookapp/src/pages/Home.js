@@ -1,6 +1,6 @@
 import React from "react";
 import Navigation from "../components/Navigation";
-import SearchBar from "../components/SearchBar";
+import BarreDeRecherche from "./BarreDeRecherche";
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
           Avec Intellicook, trouver vos recettes à partir des ingrédients de
           votre choix
         </p>
-        <SearchBar />
+        <BarreDeRecherche />
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 .home {
   width: 360px;
-  height: 795px;
+  height: 700px;
+  text-align: center;
 
   img {
     width: 100px;
@@ -9,7 +10,7 @@
 .section_Title {
   background: url(../../assets/images/image_fond_accueil_modifiee.jpg)
     center/cover;
-  height: 80%;
+  height: 100%;
   width: 100%;
   padding-top: 70px;
   @include verticalCenter;
@@ -20,6 +21,7 @@
     margin-top: -200px;
     font-size: 24px;
     color: $white-color;
+    text-align: center;
   }
 
   p {
@@ -28,11 +30,11 @@
     font-size: 1.2em;
     font-family: $content-font;
     font-weight: 700;
-    width: 250px;
+    width: 290px;
   }
 }
 
-@media screen and (min-width: 1280px) and (min-height: 960px) {
+@media screen and (min-width: 1280px) {
   .home {
     text-align: center;
     width: 100%;
@@ -41,6 +43,7 @@
 
   .section_Title {
     width: 100%;
+    height: 100%;
 
     .title_Home {
       margin-top: -200px;

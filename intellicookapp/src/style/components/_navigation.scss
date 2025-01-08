@@ -1,6 +1,6 @@
 .navigation {
   width: 100%;
-  height: 70px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,14 +11,16 @@
 
   ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
-    font-size: 1.2em;
-    gap: 40px;
+    font-size: 1.1em;
+    gap: 60px;
     font-family: $content-font;
     font-weight: 600;
     padding: 0;
 
-    img {
+    .icon {
       width: 24px;
       padding: 0;
       margin: 0;
@@ -28,10 +30,9 @@
       text-decoration: none;
 
       li {
-        color: $black_color;
+        color: $brown_color;
         margin-top: -5px;
-        li:hover {
-          color: blue;
+        &:hover {
           cursor: pointer;
         }
       }
