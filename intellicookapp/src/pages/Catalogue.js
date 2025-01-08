@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-export default function Recette() {
+import Recette from "../components/Recette";
+export default function Catalogue() {
   const [recette, setRecette] = useState([]);
   useEffect(() => {
     fetch("recette.json")
@@ -7,12 +8,16 @@ export default function Recette() {
       .then((data) => setRecette(data.recette))
       .catch((error) => console.log(error));
   }, []);
-  function ListRecette() {
-    return (
-      <div>
-        <h1>Recette</h1>
-      </div>
-    );
+  function ListCatalogue() {
+    return recette.slice(0, 2).map((element, index) => {
+      return (
+        <div className="recette">
+          <ul>
+            <Recette key={index} recette={element} />
+          </ul>
+        </div>
+      );
+    });
   }
+  return <ListCatalogue />;
 }
-return <ListRecette />;

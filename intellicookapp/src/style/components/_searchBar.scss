@@ -25,10 +25,9 @@
     font-weight: 600;
     padding: 10px 5px;
     z-index: 1000;
-
-    button:hover {
-      cursor: pointer;
-    }
+  }
+  &:hover {
+    cursor: pointer;
   }
 
   ::placeholder {

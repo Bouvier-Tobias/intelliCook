@@ -5,9 +5,6 @@ import SearchBar from "../components/SearchBar";
 const Home = () => {
   return (
     <div className="home">
-      <div className="logo">
-        <img src="./logo_version_claire.png" alt="" />
-      </div>
       <Navigation />
       <div className="section_Title">
         <h1 className="title_Home">
@@ -15,7 +12,7 @@ const Home = () => {
         </h1>
 
         <p>
-          Avec Intellicppl, trouver vos recettes à partir des ingrédients de
+          Avec Intellicook, trouver vos recettes à partir des ingrédients de
           votre choix
         </p>
         <SearchBar />
