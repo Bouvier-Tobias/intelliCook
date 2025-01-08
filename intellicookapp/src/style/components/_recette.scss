@@ -1,47 +1,30 @@
-.body {
-  width: 100%;
-  height: 100%;
-
-  main {
-    position: relative;
-    width: 600px;
-    border-radius: 4px;
-    transition: 0.3s;
+.recette {
+  width: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+  }
 
-    &:hover {
-      transform: scale(1.2);
-      z-index: 2;
-    }
+  h2 {
+    position: absolute;
+    font-size: 1.4em;
+    color: $white-color;
+    font-family: $content-font;
+  }
+}
 
-    &:hover .infos {
-      opacity: 1;
-      transform: scaleY(1);
-    }
-
-    .infos {
-      position: absolute;
-      top: 0;
-      left: 0;
-      background: rgba(0, 0, 0, 0.7);
-      color: $white-color;
-      height: 100%;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 10px;
-      opacity: 0;
-      transform: scaleY(0);
-      transition: 0.3s;
-    }
+@media screen and (min-width: 1280px) {
+  .recette {
+    width: 100%;
 
     img {
-      height: 400px;
-      width: 100%;
-      border-radius: 10px;
+      width: 80%;
     }
   }
 }
