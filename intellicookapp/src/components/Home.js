@@ -31,6 +31,7 @@ function Home() {
       <div className="search">
         {filteredRecipes.map((recipe) => (
           <div
+            className="title_Img"
             key={recipe.name}
             onClick={() => navigate(`/recipe/${recipe.name}`)}
           >

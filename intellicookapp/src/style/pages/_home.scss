@@ -12,8 +12,10 @@
 
   h1 {
     font-family: $title-font;
+    color: $white-color;
     font-size: 1.5em;
     width: 100%;
+    text-align: center;
   }
 
   input {
@@ -29,23 +31,30 @@
 }
 
 .search {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin-top: 60px;
-
-  h3 {
-    font-size: 1.2em;
-    position: absolute;
-    z-index: 1;
-    color: $white-color;
+  gap: 20px;
+  .title_Img {
     width: 100%;
-    text-align: center;
-  }
-  img {
-    text-align: center;
-    position: relative;
-    width: 100%;
+    h3 {
+      font-size: 0.8em;
+      position: absolute;
+      z-index: 5;
+      color: $white-color;
+      width: 150px;
+      text-align: center;
+    }
+    img {
+      text-align: center;
+      position: relative;
+      width: 150px;
+      height: 100px;
+      z-index: 1;
+      border-radius: 10px;
+    }
   }
 }
