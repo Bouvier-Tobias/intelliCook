@@ -2,6 +2,8 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import recipes from "../data/recipe.json";
 import { addFavorite, removeFavorite, isFavorite } from "../utils/favorites";
+import Navbar from "./NavBar";
+
 
 function RecipeDetail() {
   const { name } = useParams();
@@ -20,18 +22,32 @@ function RecipeDetail() {
   };
 
   return (
-    <div>
+    <div className="body_recipedetail">
+
+      <Navbar />
+
       <h1>{recipe.name}</h1>
+      <div className="image"><img src= {recipe.image} alt={recipe.name}></img>
+      
       <button onClick={handleFavoriteClick}>
         {isFavorite(recipe.name)
           ? "Retirer des Favoris"
           : "Ajouter aux Favoris"}
       </button>
+      </div>
       <h2>Ingrédients :</h2>
       <ul>
         {recipe.ingredients.map((ingredient, index) => (
           <li key={index}>{ingredient}</li>
         ))}
+        <hr></hr>
+        <h2>Matériel nécessaire :</h2>
+        <ul>
+          {recipe.materiel.map((materiel, index) => (
+            <li key={index}> {materiel} </li>
+          ) )}
+        </ul>
+        <hr></hr>
       </ul>
       <h2>Préparation :</h2>
       <p>{recipe.instruction}</p>
