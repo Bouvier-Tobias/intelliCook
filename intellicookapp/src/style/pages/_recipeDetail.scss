@@ -1,11 +1,76 @@
 .body_recipedetail {
-    width: 360px;
+    width: 100vw;
+    // height: 100vh;
+    // margin-bottom: 10rem;
+    padding-bottom:10rem ;
+    background-color: #FFFAE8;
     h1 {
         text-align: center;
+        font-family: $title-font;
     }
-    .image {
+    hr {
+        width: 75%;
+        justify-self: center;
+    }
+    h2 {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: $title-font;
+    }
+    ul {
+        line-height: 1.5rem;
+        list-style-type: circle;
+        font-family: $content-font;
+    }
+    .image_block {
+        width: 100vw;
         display:flex ;
-        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        img {
+            width: 45vw;
+            height: 27vw;
+        }
+        button {
+            width: 15rem;
+            height: 2rem;
+        }
+        }
     }
-
-}
+    .ingredients_block {
+        width: 100vw;
+        margin-bottom: 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+            // ul {
+            //     list-style-type: none;
+            //     font-family: $content-font;
+            // }
+    }
+    .materiel_block {
+        width: 100vw;
+        margin-bottom: 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+            // ul {
+            //     list-style-type: none;
+            //     font-family: $content-font;
+            // }
+    }
+    .preparation_block {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p {
+            width: 90vw;
+            font-family: $content-font;
+        }
+    }
+    @media screen and (min-width: 1280px) {
+        .body_recipedetail {
+            height: 100vh;
+        }}
