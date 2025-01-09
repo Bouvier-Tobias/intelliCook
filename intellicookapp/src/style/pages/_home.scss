@@ -1,0 +1,51 @@
+.body_Home {
+  padding: 0;
+  margin: 0;
+  width: 360px;
+  height: 700px;
+  background: url(../../assets/images/image_fond_accueil_modifiee.jpg)
+    center/cover;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+
+  h1 {
+    font-family: $title-font;
+    font-size: 1.5em;
+    width: 100%;
+  }
+
+  input {
+    width: 90%;
+    height: 25px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+  }
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+
+  h3 {
+    font-size: 1.2em;
+    position: absolute;
+    z-index: 1;
+    color: $white-color;
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    text-align: center;
+    position: relative;
+    width: 100%;
+  }
+}

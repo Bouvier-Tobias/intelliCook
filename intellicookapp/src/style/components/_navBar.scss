@@ -1,0 +1,25 @@
+.navBar {
+  width: 360px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  background-color: $white-color;
+  gap: 60px;
+  z-index: 1;
+
+  a {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: $brown-color;
+  }
+
+  img {
+    width: 25px;
+  }
+}

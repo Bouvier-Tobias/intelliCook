@@ -19,7 +19,7 @@ function Home() {
   };
 
   return (
-    <div>
+    <div className="body_Home">
       <Navbar />
       <h1>Recherche de Recettes</h1>
       <input
@@ -28,13 +28,14 @@ function Home() {
         value={search}
         onChange={handleSearch}
       />
-      <div>
+      <div className="search">
         {filteredRecipes.map((recipe) => (
           <div
             key={recipe.name}
             onClick={() => navigate(`/recipe/${recipe.name}`)}
           >
             <h3>{recipe.name}</h3>
+            <img src={recipe.image} alt=""></img>
           </div>
         ))}
       </div>
