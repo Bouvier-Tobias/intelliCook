@@ -1,7 +1,7 @@
 import React from "react";
-import recipes from "../data/recipe.json"; // Import du JSON
 import { useNavigate } from "react-router-dom";
-import { addFavorite, removeFavorite, isFavorite } from "../utils/favorites";
+import recipes from "../data/recipe.json"; // Import du JSON
+import { addFavorite, isFavorite, removeFavorite } from "../utils/favorites";
 import NavBar from "./NavBar";
 
 function RecipeCard({ recipe }) {
@@ -29,10 +29,16 @@ function RecipeCard({ recipe }) {
 
 function Catalogue() {
   return (
-    <div>
+    <div className="catalogue">
       <NavBar />
+      <img src="./logo_version_claire.png" alt="" />
+
       <h1>Catalogue des Recettes</h1>
-      <div>
+      <div className="image-grid">
+        {recipes.map((recipe, index) => (
+          <img RecipeCard key={index} src={recipe.image} alt={recipe.nom} />
+        ))}
+
         {recipes.map((recipe) => (
           <RecipeCard key={recipe.name} recipe={recipe} />
         ))}
