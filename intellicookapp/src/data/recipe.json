@@ -45,18 +45,14 @@
     "name": "Soupe de lentilles corail",
     "ingredients": [
       "200g de lentilles corail",
-      { "quantité": "1", "nom": "oignon" },
-      { "quantité": "1", "nom": "carotte" },
-      {
-        "quantité": "1",
-        "suite": "c. à soupe de ",
-        "nom": "concentré de tomate"
-      },
-      { "quantité": "1", "suite": "litre de ", "nom": "bouillon de légumes" },
-      { "quantité": "1", "suite": "c.à café de", "nom": "cumin" }
+      "1 oignon",
+      "1 carotte",
+      "1 c. à soupe de concentré de tomate",
+      "1 litre de bouillon de légumes",
+      "1 c.à café de cumin"
     ],
     "materiel": ["casserole"],
-    "instructions": [
+    "instruction": [
       "Faites revenir l’oignon émincé dans une casserole avec un peu d’huile.",
       "Ajoutez la carotte coupée en dés et les lentilles corail.",
       "Versez le bouillon, ajoutez le concentré de tomate et le cumin.",
@@ -68,16 +64,16 @@
     "id": 4,
     "name": "Ratatouille rapide",
     "ingredients": [
-      { "quantité": "1", "nom": "courgette" },
-      { "quantité": "1", "nom": "oignon" },
-      { "quantité": "1", "nom": "aubergine" },
-      { "quantité": "3", "suite": " c.à soupe d'", "nom": "huile d'olive" },
-      { "quantité": "1", "nom": "poivron rouge" },
-      { "quantité": "2", "nom": "tomates" },
-      { "quantité": "2", "nom": "gousses d'ail" }
+      "1 courgette",
+      "1 oignon",
+      "1 aubergine",
+      "3 c.à soupe d'huile d'olive",
+      "1 poivron rouge",
+      "2 tomates",
+      "2 gousses d'ail"
     ],
     "materiel": ["poele"],
-    "instructions": [
+    "instruction": [
       "Coupez tous les légumes en petits morceaux.",
       "Faites revenir l’oignon et l’ail dans une grande poêle.",
       "Ajoutez les légumes, assaisonnez et laissez mijoter 20 minutes."
@@ -88,14 +84,13 @@
     "id": 5,
     "name": "Crêpes classiques",
     "ingredients": [
-      { "quantité": "250gr", "suite": "de", "nom": "farine" },
-      { "quantité": "3", "nom": "oeufs" },
-      { "quantité": "500 ml", "suite": "de", "nom": "lait" },
-      { "nom": "sel" },
-      { "quantité": "50gr", "suite": "de", "nonm": "beurre fondu" }
+      "250 gr de farine",
+      "3 oeufs",
+      "sel",
+      "50gr de beurre fondu"
     ],
     "materiel": ["poele", "saladier"],
-    "instructions": [
+    "instruction": [
       "Mélangez la farine, les œufs et le sel.",
       "Incorporez progressivement le lait, puis le beurre fondu.",
       "Faites cuire les crêpes dans une poêle chaude et huilée."
@@ -106,18 +101,18 @@
     "id": 6,
     "name": "Curry de pois chiches",
     "ingredients": [
-      { "quantité": "1", "suite": "boite de", "nom": " pois chiches" },
-      { "quantité": "1", "nom": "oignon" },
-      { "quantité": "2", "nom": "tomates" },
-      { "quantité": "200ml", "suite": "de", "nom": "lait de coco" },
-      { "quantité": "1", "suite": "c.à soupe de ", "nom": "pâte de curry" },
-      { "quantité": "1", "suite": "c.à café de ", "nom": "curcuma" },
-      { "nom": "huile" },
-      { "nom": "sel" },
-      { "nom": "poivre" }
+      "1 boite de pois chiches",
+      "1 oignon",
+      "2 tomates",
+      "200ml de lait de coco",
+      "1 c.à soupe de pâte de curry",
+      "1 c.à café de curcuma",
+      "huile",
+      "sel",
+      "poivre"
     ],
     "materiel": ["casserole"],
-    "instructions": [
+    "instruction": [
       "Faites revenir l’oignon émincé dans un peu d’huile.",
       "Ajoutez les tomates en dés, les pois chiches, la pâte de curry et le curcuma.",
       "Versez le lait de coco, mélangez et laissez mijoter 15 minutes.",
@@ -129,17 +124,17 @@
     "id": 7,
     "name": "Gratin dauphinois",
     "ingredients": [
-      { "quantité": "1kg", "suite": "de", "nom": "pomme de terre" },
-      { "quantité": "400 ml", "suite": "de", "nom": "lait" },
-      { "quantité": "1", "nom": "gousse d'ail" },
-      { "quantité": "200ml", "suite": "de", "nom": "lait de coco" },
-      { "quantité": "50g", "suite": "de", "nom": "beurre" },
-      { "nom": "muscade" },
-      { "nom": "sel" },
-      { "nom": "poivre" }
+      "1kg depomme de terre",
+      "400 ml de lait",
+      "1 gousse d'ail",
+      "200ml de lait de coco",
+      "50g de beurre",
+      "muscade",
+      "sel",
+      "poivre"
     ],
     "materiel": ["four", "plat à gratin"],
-    "instructions": [
+    "instruction": [
       "Préchauffez le four à 180°C.",
       "Épluchez et coupez les pommes de terre en rondelles fines.",
       "Frottez un plat à gratin avec l’ail, puis beurrez-le.",
@@ -152,17 +147,17 @@
     "id": 8,
     "name": "Quiche loraine",
     "ingredients": [
-      { "quantité": "1", "nom": "pâte brisé" },
-      { "quantité": "200 gr", "suite": "de", "nom": "lardons" },
-      { "quantité": "3", "nom": "oeufs" },
-      { "quantité": "200ml", "suite": "de", "nom": "crème fraiche" },
-      { "quantité": "100ml", "suite": "de", "nom": "lait" },
-      { "nom": "muscade" },
-      { "nom": "sel" },
-      { "nom": "poivre" }
+      "1 pâte brisé",
+      "200 gr de lardons",
+      "3 oeufs",
+      "200ml de crème fraiche",
+      "100ml de lait",
+      "muscade",
+      "sel",
+      "poivre"
     ],
     "materiel": ["four", "moule", "poele"],
-    "instructions": [
+    "instruction": [
       "Préchauffez le four à 180°C.",
       "Étalez la pâte dans un moule, piquez-la avec une fourchette.",
       "Faites revenir les lardons, puis répartissez-les sur la pâte.",
@@ -175,17 +170,17 @@
     "id": 9,
     "name": "Salade de quinoa et légumes grillés",
     "ingredients": [
-      { "quantité": "200gr", "suite": "de", "nom": "quinoa" },
-      { "quantité": "1", "nom": "courgette" },
-      { "quantité": "1", "nom": "poivron" },
-      { "quantité": "1", "nom": "aubergine" },
-      { "quantité": "1", "nom": "citron" },
-      { "quantité": "3", "suite": "c.à soupe d'", "nom": "huile d'olive" },
-      { "nom": "sel" },
-      { "nom": "poivre" }
+      "200gr de quinoa",
+      "1 courgette",
+      "1 poivron",
+      "1 aubergine",
+      "1citron",
+      "3 c.à soupe d' huile d'olive",
+      "sel",
+      "poivre"
     ],
     "materiel": ["casserole", "four", "plat"],
-    "instructions": [
+    "instruction": [
       "Faites cuire le quinoa selon les instructions du paquet.",
       "Coupez les légumes en morceaux et faites-les griller au four avec de l’huile, du sel et du poivre.",
       "Mélangez le quinoa, les légumes et le jus de citron."
@@ -196,15 +191,15 @@
     "id": 10,
     "titre": "Pancackes moelleux",
     "ingredients": [
-      { "quantité": "200gr", "suite": "de", "nom": "farine" },
-      { "quantité": "1 sachet", "suite": "de", "nom": "levure chimique" },
-      { "quantité": "30gr", "suite": "de", "nom": "sucre" },
-      { "quantité": "2", "nom": "oeufs" },
-      { "quantité": "300ml", "suite": "de", "nom": "lait" },
-      { "quantité": "30gr", "suite": "de", "nom": "beurre fondu" }
+      "200 gr de farine",
+      "1 sachet delevure chimique",
+      "30 gr sucre",
+      "2 oeufs",
+      "300 ml de lait",
+      "30 gr de beurre fondu"
     ],
     "materiel": ["poele", "plat"],
-    "instructions": [
+    "instruction": [
       "Mélangez les ingrédients secs.",
       "Ajoutez les œufs, le lait et le beurre fondu. Mélangez jusqu’à obtenir une pâte lisse.",
       "Faites cuire des petites portions de pâte dans une poêle chaude."
@@ -215,14 +210,14 @@
     "id": 11,
     "name": "Tartes aux pommes",
     "ingredients": [
-      { "quantité": "1", "nom": "pâte feuilletée" },
-      { "quantité": "3", "nom": "pomme" },
-      { "quantité": "50gr", "suite": "de", "nom": "sucre" },
-      { "nom": "cannelle" },
-      { "quantité": "30gr", "suite": "de", "nom": "beurre fondu" }
+      "1 pâte feuilletée",
+      "3 pomme",
+      "50gr de sucre",
+      "cannelle",
+      "30 gr de beurre fondu"
     ],
     "materiel": ["four", "moule"],
-    "instructions": [
+    "instruction": [
       "Préchauffez le four à 180°C.",
       "Étalez la pâte dans un moule, disposez les pommes en fines lamelles.",
       "Saupoudrez de sucre et de cannelle, ajoutez le beurre fondu.",
@@ -234,17 +229,17 @@
     "id": 12,
     "name": "Riz cantonnais",
     "ingredients": [
-      { "quantité": "200gr", "suite": "de", "nom": "riz" },
-      { "quantité": "2", "nom": "oeufs" },
-      { "quantité": "100gr", "suite": "de", "nom": "petits pois" },
-      { "quantité": "100gr", "suite": "de", "nom": "jambon" },
-      { "nom": "huile" },
-      { "nom": "sel" },
-      { "nom": "poivre" },
-      { "quantité": "2", "suite": "c.à soupe de ", "nom:": "sauce soja" }
+      "200 gr de riz",
+      "2 oeufs",
+      "100 gr de petits pois",
+      "100 gr de jambon",
+      "huile",
+      "sel",
+      "poivre",
+      "2 c.à soupe de sauce soja"
     ],
     "materiel": ["poele", "moule"],
-    "instructions": [
+    "instruction": [
       "Faites cuire le riz et les petits pois.",
       "Étalez la pâte dans un moule, disposez les pommes en fines lamelles.",
       "Mélangez le riz, les petits pois, le jambon en dés, l’omelette et la sauce soja dans la poêle"
@@ -255,16 +250,16 @@
     "id": 13,
     "name": "Omelette aux champignons",
     "ingredients": [
-      { "quantité": "200gr", "suite": "de", "nom": "champignons" },
-      { "quantité": "4", "nom": "oeufs" },
-      { "quantité": "1", "nom": "échalote" },
-      { "quantité": "2", "suite": "c.à soupe de ", "nom": "crème fraiche" },
-      { "nom": "beurre" },
-      { "nom": "sel" },
-      { "nom": "poivre" }
+      "200gr de champignons",
+      "4 oeufs",
+      "1 échalote",
+      "2 c.à soupe de crème fraiche",
+      "beurre",
+      "sel",
+      "poivre"
     ],
     "materiel": ["poele", "saladier"],
-    "instructions": [
+    "instruction": [
       "Nettoyez et émincez les champignons. Faites-les revenir avec l’échalote dans du beurre.",
       "Battez les œufs avec la crème, le sel et le poivre.",
       "Versez les œufs dans la poêle avec les champignons et laissez cuire à feu doux."
@@ -275,15 +270,15 @@
     "id": 14,
     "name": "Pizza maison",
     "ingredients": [
-      { "quantité": "200gr", "suite": "de", "nom": "sauce tomate" },
-      { "quantité": "1", "nom": "pâte à pizza" },
-      { "quantité": "150gr", "suite": "de", "nom": "mozzarella" },
-      { "nom": "jambon" },
-      { "nom": "champignons" },
-      { "nom": "olives" }
+      "200gr de sauce tomate",
+      "1 âte à pizza",
+      "150gr de mozzarella",
+      "jambon",
+      "champignons",
+      "olives"
     ],
     "materiel": ["four", "plaque de cuisson"],
-    "instructions": [
+    "instruction": [
       "Préchauffez le four à 220°C.",
       "Étalez la sauce tomate sur la pâte.",
       "Ajoutez la mozzarella et les garnitures.",
@@ -295,19 +290,19 @@
     "id": 15,
     "name": "Lasagnes à la bolognaise",
     "ingredients": [
-      { "qauntité": "200gr", "suite": "de", "nom": "feuilles de lasagnes" },
-      { "quantité": "1", "nom": "oignon" },
-      { "quantité": "400gr", "suite": "de", "nom": "viande hachée" },
-      { "quantité": "2", "nom": "gousses d'ail" },
-      { "quantité": "500g", "suite": "de", "nom": "sauce tomate" },
-      { "quantité": "500ml", "suite": "de", "nom": "béchamel" },
-      { "quantité": "100gr", "suite": "de", "nom": "fromage râpé" },
-      { "nom": "huile" },
-      { "nom": "sel" },
-      { "nom": "poivre" }
+      "200 gr de feuilles de lasagnes",
+      "1 ignon",
+      "400 gr e iande hachée",
+      "2 ousses d'ail",
+      "500 gr de sauce tomate",
+      "50 0ml de béchamel",
+      "100 gr de fromage râpé",
+      "huile",
+      "sel",
+      "poivre"
     ],
     "materiel": ["poele", "four"],
-    "instructions": [
+    "instruction": [
       "Faites revenir l’oignon et l’ail émincés dans un peu d’huile. ",
       "Ajoutez la viande hachée, laissez cuire, puis incorporez la sauce tomate.",
       "Dans un plat à gratin, alternez des couches de sauce, de feuilles de lasagnes et de béchamel.",
@@ -320,16 +315,16 @@
     "id": 16,
     "name": "Soupe de légumes",
     "ingredients": [
-      { "quantité": "2", "nom": "carottes" },
-      { "quantité": "2", "nom": "pommes de terre" },
-      { "quantité": "1", "nom": "poireau" },
-      { "quantité": "1", "nom": "courgette" },
-      { "quantité": "1 litre", "suite": "de", "nom": "bouillon de légumes" },
-      { "nom": "sel" },
-      { "nom": "poivre" }
+      "2 carottes",
+      "2 pommes de terre",
+      "1 poireau",
+      "1 courgette",
+      "1 litre de bouillon de légumes",
+      "sel",
+      "poivre"
     ],
     "materiel": ["casserole", "mixeur"],
-    "instructions": [
+    "instruction": [
       "Épluchez et coupez les légumes en morceaux.",
       "Faites-les cuire dans le bouillon jusqu’à ce qu’ils soient tendres.",
       "Mixez la soupe, rectifiez l’assaisonnement, et servez chaud."
@@ -340,16 +335,16 @@
     "id": 17,
     "name": "Poulet au curry et au lait de coco",
     "ingredients": [
-      { "quantité": "4", "nom": "filets de poulet" },
-      { "quantité": "1", "name": "oignon" },
-      { "quantité": "200ml", "suite": "de", "nom": "lait de coco" },
-      { "quantité": "1 c.à soupe", "suite": "de", "nom": "pâte de curry" },
-      { "quantité": "1 c.à soupe d", "nom": "'huile" },
-      { "nom": "sel" },
-      { "nom": "poivre" }
+      "4 filets de poulet",
+      "1 oignon",
+      "200ml de lait de coco",
+      "1 c.à soupe de pâte de curry",
+      "1 c.à soupe d'huile",
+      "sel",
+      "poivre"
     ],
     "materiel": ["poele"],
-    "instructions": [
+    "instruction": [
       "Coupez le poulet en morceaux et faites-le revenir avec l’oignon émincé dans l’huile.",
       "Ajoutez la pâte de curry et le lait de coco. Mélangez bien.",
       "Laissez mijoter 15 minutes, puis servez avec du riz."
@@ -360,15 +355,15 @@
     "id": 18,
     "name": "Gaufres sucrées",
     "ingredients": [
-      { "quantité": "250g", "suite": "de", "nom": "farine" },
-      { "quantité": "2", "nom": "oeufs" },
-      { "quantité": "50gr", "suite": "de", "nom": "sucre" },
-      { "quantité": "500ml", "suite": "de", "nom": "lait" },
-      { "quantité": "1 sachet", "suite": "de", "nom": "levure chimique" },
-      { "quantité": "50gr", "suite": "de", "nom": "beurre fondu" }
+      "250 gr de farine",
+      "2 oeufs",
+      "50gr de sucre",
+      "500ml de lait",
+      "1 sachet de levure chimique",
+      "50gr de beurre fondu"
     ],
     "materiel": ["gaufrier", "cul de poule"],
-    "instructions": [
+    "instruction": [
       "Mélangez les ingrédients secs.",
       "Ajoutez les œufs, le lait et le beurre fondu. Mélangez bien.",
       "Faites cuire la pâte dans un gaufrier jusqu’à obtenir des gaufres dorées."
@@ -379,17 +374,17 @@
     "id": 19,
     "name": "Tajine de légumes",
     "ingredients": [
-      { "quantité": "2", "nom": "carottes" },
-      { "quantité": "1", "nom": "oignon" },
-      { "quantité": "1", "nom": "courgette" },
-      { "quantité": "1", "nom": "poivron" },
-      { "quantité": "2", "nom": "tomates" },
-      { "quantité": "2 c.à café ", "suite": "de", "nom": "ra-el-hanout" },
-      { "quantité": "2 c.à soupe d'huile d'olive" },
-      { "quantité": "200ml de bouillon de légumes" }
+      "2 carottes",
+      "1 oignon",
+      "1 courgette",
+      "1 poivron",
+      "2tomates",
+      "2 c.à café de ra-el-hanout",
+      "2 c.à soupe d'huile d'olive",
+      "200ml de bouillon de légumes"
     ],
     "materiel": ["tajine", "casserole"],
-    "instructions": [
+    "instruction": [
       "Faites revenir l’oignon dans l’huile avec les épices.",
       "Ajoutez les légumes coupés en morceaux et le bouillon.",
       "Laissez mijoter à feu doux pendant 30 minutes."
@@ -400,14 +395,14 @@
     "id": 20,
     "name": "Fondant au chocolat",
     "ingredients": [
-      { "quantité": "200g", "suite": "de", "nom": "chocolat noir" },
-      { "quantité": "150gr", "suite": "de", "nom": "beurre" },
-      { "quantité": "150g", "suite": "de", "nom": "sucre" },
-      { "quantité": "3", "nom": "oeufs" },
-      { "quantité": "50g", "suite": "de", "nom": "farine" }
+      "200 gr de chocolat noir",
+      "150 gr beurre",
+      "150 gr sucre",
+      "3 oeufs",
+      "50 gr de farine"
     ],
     "materiel": ["four", "casserole", "cul de poule"],
-    "instructions": [
+    "instructionf": [
       "Préchauffez le four à 180°C.",
       "Faites fondre le chocolat et le beurre au bain-marie.",
       "Incorporez le sucre, les œufs, puis la farine. Mélangez bien.",
