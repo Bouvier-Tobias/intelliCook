@@ -23,3 +23,12 @@
     width: 25px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .navBar {
+    width: 100%;
+    height: 60px;
+    justify-content: space-around;
+    position: relative;
+  }
+}

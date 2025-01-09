@@ -21,7 +21,8 @@ function Home() {
   return (
     <div className="body_Home">
       <Navbar />
-      <h1>Recherche de Recettes</h1>
+      <h1>Sur IntelliCook rechercher des recette en un clin d'oeil</h1>
+      <p>Trouver vos meilleure en selectionnant l'ingrédient de votre choix</p>
       <input
         type="text"
         placeholder="Entrez un ingrédient"
@@ -29,7 +30,7 @@ function Home() {
         onChange={handleSearch}
       />
       <div className="search">
-        {filteredRecipes.map((recipe) => (
+        {filteredRecipes.slice(0, 5).map((recipe) => (
           <div
             className="title_Img"
             key={recipe.name}
