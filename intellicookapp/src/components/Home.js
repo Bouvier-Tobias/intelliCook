@@ -30,14 +30,14 @@ function Home() {
         onChange={handleSearch}
       />
       <div className="search">
-        {filteredRecipes.slice(0, 5).map((recipe) => (
+        {filteredRecipes.slice(0, 6).map((recipe) => (
           <div
             className="title_Img"
             key={recipe.name}
             onClick={() => navigate(`/recipe/${recipe.name}`)}
           >
             <h3>{recipe.name}</h3>
-            <img src={recipe.image} alt=""></img>
+            <img src={recipe.image} alt={recipe.name}></img>
           </div>
         ))}
       </div>
