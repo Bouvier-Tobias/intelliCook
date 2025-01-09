@@ -1,20 +1,21 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Catalogue from "./pages/Catalogue";
-import Favoris from "./pages/Favoris";
-import Home from "./pages/Home";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
+import Catalogue from "./components/Catalogue";
+import RecipeDetail from "./components/RecipeDetail";
+import Favorites from "./components/Favorites";
 
-const App = () => {
+function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* path="*" fonctionne si jamais l'url ne correspond a rien */}
-        <Route path="*" element={<Home />} />
         <Route path="/Catalogue" element={<Catalogue />} />
-        <Route path="/Favoris" element={<Favoris />} />
+        <Route path="/Recipe/:name" element={<RecipeDetail />} />
+        <Route path="/Favorites" element={<Favorites />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
-};
+}
+
 export default App;
