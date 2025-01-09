@@ -17,7 +17,13 @@ function RecipeCard({ recipe }) {
 
   return (
     <div>
-      <h3 onClick={() => navigate(`/recipe/${recipe.name}`)}>{recipe.name}</h3>
+      {recipe.name}
+      <h3 onClick={() => navigate(`/recipe/${recipe.name}`)}>
+        <div className="image-container">
+          <img src={recipe.image} alt={recipe.name} />
+        </div>
+      </h3>
+
       <button onClick={handleFavoriteClick}>
         {isFavorite(recipe.name)
           ? "Retirer des Favoris"
@@ -34,14 +40,12 @@ function Catalogue() {
       <img src="./logo_version_claire.png" alt="" />
 
       <h1>Catalogue des Recettes</h1>
-      <div className="image-grid">
-        {recipes.map((recipe, index) => (
-          <img RecipeCard key={index} src={recipe.image} alt={recipe.nom} />
-        ))}
-
-        {recipes.map((recipe) => (
-          <RecipeCard key={recipe.name} recipe={recipe} />
-        ))}
+      <div className="page">
+        <div className="image-grid">
+          {recipes.map((recipe) => (
+            <RecipeCard key={recipe.name} recipe={recipe} />
+          ))}
+        </div>
       </div>
     </div>
   );
