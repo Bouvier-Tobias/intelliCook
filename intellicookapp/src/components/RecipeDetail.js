@@ -13,7 +13,6 @@ function RecipeDetail() {
   }
 
   const handleFavoriteClick = () => {
-    this.src = "/icones/Icone-Heart-White.svg";
     if (isFavorite(recipe.name)) {
       removeFavorite(recipe.name);
     } else {
@@ -30,6 +29,7 @@ function RecipeDetail() {
         <img src={recipe.image} alt={recipe.name}></img>
 
         <img
+          className="icone-Heart"
           onClick={handleFavoriteClick}
           src="/icones/Icone-Heart.svg"
           alt=""
