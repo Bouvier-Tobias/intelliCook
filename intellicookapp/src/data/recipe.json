@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Spaghetti à l'ail et au persil",
     "ingredients": [
-      "250 gr de nom spaghetti",
+      "250 gr de spaghetti",
       "3 gousses d'ail",
       "4 c. a soupe d'huile",
       "1 bouquet de persil frais",
@@ -124,7 +124,7 @@
     "id": 7,
     "name": "Gratin dauphinois",
     "ingredients": [
-      "1kg depomme de terre",
+      "1kg de pomme de terre",
       "400 ml de lait",
       "1 gousse d'ail",
       "200ml de lait de coco",
@@ -174,7 +174,7 @@
       "1 courgette",
       "1 poivron",
       "1 aubergine",
-      "1citron",
+      "1 citron",
       "3 c.à soupe d' huile d'olive",
       "sel",
       "poivre"
@@ -192,8 +192,8 @@
     "name": "Pancackes moelleux",
     "ingredients": [
       "200 gr de farine",
-      "1 sachet delevure chimique",
-      "30 gr sucre",
+      "1 sachet de levure chimique",
+      "30 gr de sucre",
       "2 oeufs",
       "300 ml de lait",
       "30 gr de beurre fondu"
@@ -211,7 +211,7 @@
     "name": "Tartes aux pommes",
     "ingredients": [
       "1 pâte feuilletée",
-      "3 pomme",
+      "3 pommes",
       "50gr de sucre",
       "cannelle",
       "30 gr de beurre fondu"
@@ -271,7 +271,7 @@
     "name": "Pizza maison",
     "ingredients": [
       "200gr de sauce tomate",
-      "1 âte à pizza",
+      "1 pâte à pizza",
       "150gr de mozzarella",
       "jambon",
       "champignons",
@@ -291,9 +291,9 @@
     "name": "Lasagnes à la bolognaise",
     "ingredients": [
       "200 gr de feuilles de lasagnes",
-      "1 ignon",
-      "400 gr e iande hachée",
-      "2 ousses d'ail",
+      "1 oignon",
+      "400 gr de viande hachée",
+      "2 gousses d'ail",
       "500 gr de sauce tomate",
       "50 0ml de béchamel",
       "100 gr de fromage râpé",
@@ -378,7 +378,7 @@
       "1 oignon",
       "1 courgette",
       "1 poivron",
-      "2tomates",
+      "2 tomates",
       "2 c.à café de ra-el-hanout",
       "2 c.à soupe d'huile d'olive",
       "200ml de bouillon de légumes"
