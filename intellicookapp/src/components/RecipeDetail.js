@@ -30,6 +30,7 @@ function RecipeDetail() {
       <div className="image_block">
       <img src={recipe.image} alt={recipe.name}></img>
       <button onClick={handleFavoriteClick}>
+        <img src="./../../public/icones/Icone-Heart.svg" alt=""></img>
         {isFavorite(recipe.name)
           ? "Retirer des Favoris"
           : "Ajouter aux Favoris"}
