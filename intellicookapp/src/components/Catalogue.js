@@ -38,9 +38,9 @@ function Catalogue() {
     <div className="catalogue">
       <NavBar />
       <img src="./logo_version_claire.png" alt="" />
+      <div>
+        <h1>Catalogue des Recettes</h1>
 
-      <h1>Catalogue des Recettes</h1>
-      <div className="page">
         <div className="image-grid">
           {recipes.map((recipe) => (
             <RecipeCard key={recipe.name} recipe={recipe} />
