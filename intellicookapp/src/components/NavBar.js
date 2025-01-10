@@ -11,7 +11,8 @@ function Navbar() {
         <img src="./icones/Icone-Book-White.svg" alt=""></img>Catalogue
       </Link>
       <Link to="/favorites">
-        <img src="./icones/Icone-Heart-White.svg" alt=""></img>Favoris
+        <img src="./icones/Icone-Heart-White.svg" alt=""></img>
+        Favoris
       </Link>
     </nav>
   );
