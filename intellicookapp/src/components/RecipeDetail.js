@@ -26,7 +26,7 @@ function RecipeDetail() {
 
       <h1>{recipe.name}</h1>
       <div className="image_block">
-        <img src={recipe.image} alt={recipe.name}></img>
+        <img className="recipe_image" src={recipe.image} alt={recipe.name}></img>
 
         <img
           className="icone-Heart"
