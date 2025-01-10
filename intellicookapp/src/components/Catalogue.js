@@ -17,9 +17,9 @@ function RecipeCard({ recipe }) {
 
   return (
     <div>
-      {recipe.name}
       <h3 onClick={() => navigate(`/recipe/${recipe.name}`)}>
         <div className="image-container">
+          <div className="taille">{recipe.name}</div>
           <img src={recipe.image} alt={recipe.name} />
         </div>
       </h3>
