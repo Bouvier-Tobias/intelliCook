@@ -17,13 +17,14 @@ function RecipeCard({ recipe }) {
 
   return (
     <div>
-      <h3 onClick={() => navigate(`/recipe/${recipe.name}`)}>
-        <div className="image-container">
-          <div className="taille">{recipe.name}</div>
-          <img src={recipe.image} alt={recipe.name} />
-        </div>
-      </h3>
-
+      <div onClick={() => navigate(`/recipe/${recipe.name}`)}>
+        <h3>
+          <div className="image-container">
+            <div className="taille">{recipe.name}</div>
+            <img src={recipe.image} alt={recipe.name} />
+          </div>
+        </h3>
+      </div>
       <button onClick={handleFavoriteClick}>
         {isFavorite(recipe.name)
           ? "Retirer des Favoris"
