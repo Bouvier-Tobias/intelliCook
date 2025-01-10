@@ -6,7 +6,7 @@
   align-items: center;
   position: fixed;
   bottom: 0;
-  background-color: $white-color;
+  background-color: $brown-color;
   gap: 60px;
   z-index: 5;
 
@@ -16,14 +16,14 @@
     align-items: center;
     flex-direction: column;
     text-decoration: none;
-    color: $brown-color;
-    padding-bottom: 10px;
+    color: $white-color;
     font-family: $content-font;
     font-weight: 700;
   }
 
   img {
     width: 25px;
+    color: #fff;
   }
 }
 
