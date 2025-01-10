@@ -8,7 +8,9 @@
 }
 $title-font: "title-font", serif;
 $content-font: "content-font", sans-serif;
-
+html {
+  background-color: #fffae8;
+}
 * {
   padding: 0;
   margin: 0;
