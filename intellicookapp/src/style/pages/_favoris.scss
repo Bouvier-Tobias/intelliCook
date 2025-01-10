@@ -1,0 +1,16 @@
+.image {
+  display: grid;
+  height: 100%;
+  grid-template-columns: repeat(2, 1fr); /* Deux colonnes */
+  gap: 10px; /* Espacement entre les images */
+  margin: 20px;
+  margin-bottom: 100px; /*ligne du bas*/
+}
+
+.image img {
+  width: 100%; /* Images s'adaptent à la largeur de la colonne */
+  height: 170px; /* Préserve les proportions */
+  object-fit: cover;
+  border: 0px #090000; /* Bordure facultative */
+  border-radius: 10px; /* Coins arrondis */
+}

@@ -1,6 +1,6 @@
 import React from "react";
-import { getFavorites, removeFavorite } from "../utils/favorites";
 import { useNavigate } from "react-router-dom";
+import { getFavorites, removeFavorite } from "../utils/favorites";
 import NavBar from "./NavBar";
 
 function Favorites() {
@@ -18,7 +18,10 @@ function Favorites() {
       {favorites.map((recipe) => (
         <div key={recipe.name}>
           <h3 onClick={() => navigate(`/recipe/${recipe.name}`)}>
-            {recipe.name}
+            <div className="image">
+              <div>{recipe.name}</div>
+              <img src={recipe.image} alt={recipe.name} />
+            </div>
           </h3>
           <button onClick={() => removeFavorite(recipe.name)}>
             Retirer des Favoris
