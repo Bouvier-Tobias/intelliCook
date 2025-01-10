@@ -13,6 +13,7 @@ function RecipeDetail() {
   }
 
   const handleFavoriteClick = () => {
+    this.src = "/icones/Icone-Heart-White.svg";
     if (isFavorite(recipe.name)) {
       removeFavorite(recipe.name);
     } else {
@@ -27,12 +28,15 @@ function RecipeDetail() {
       <h1>{recipe.name}</h1>
       <div className="image_block">
         <img src={recipe.image} alt={recipe.name}></img>
-        <button onClick={handleFavoriteClick}>
-          <img src="./icones/Icone-Heart-White.svg" alt=""></img>
-          {isFavorite(recipe.name)
-            ? "Retirer des Favoris"
-            : "Ajouter aux Favoris"}
-        </button>
+
+        <img
+          onClick={handleFavoriteClick}
+          src="/icones/Icone-Heart.svg"
+          alt=""
+        ></img>
+        {isFavorite(recipe.name)
+          ? "Retirer des Favoris"
+          : "Ajouter aux Favoris"}
       </div>
       <div className="ingredients_block">
         <h2>Ingrédients :</h2>

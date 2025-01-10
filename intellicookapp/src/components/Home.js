@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import recipes from "../data/recipe.json"; // Import du fichier JSON
 import { useNavigate } from "react-router-dom";
 import Navbar from "./NavBar";
+import Logo from "./Logo";
 
 function Home() {
   const [search, setSearch] = useState("");
@@ -21,6 +22,7 @@ function Home() {
   return (
     <div className="body_Home">
       <Navbar />
+      <Logo />
       <h1>Sur IntelliCook rechercher des recette en un clin d'oeil</h1>
       <p>Trouver vos meilleure en selectionnant l'ingrédient de votre choix</p>
       <input
