@@ -17,7 +17,7 @@
       "Ajoutez les spaghetti et le persil haché. Mélangez bien.",
       "Assaisonnez de sel et de poivre. Servez chaud."
     ],
-    "image": "spaghetti_ail.jpg"
+    "image": "../spaghetti_ail.jpg"
   },
   {
     "id": 2,
@@ -38,7 +38,7 @@
       "Parsemez de thym, salez, poivrez.",
       "Enfournez pendant 35-40 minutes."
     ],
-    "image": "poulet-citron-thym.jpg"
+    "image": "../poulet-citron-thym.jpg"
   },
   {
     "id": 3,
@@ -58,7 +58,7 @@
       "Versez le bouillon, ajoutez le concentré de tomate et le cumin.",
       "Laissez mijotez 20 minutes, puis mixez"
     ],
-    "image": "soupe_lentille_corail.jpg"
+    "image": "../soupe_lentille_corail.jpg"
   },
   {
     "id": 4,
@@ -78,7 +78,7 @@
       "Faites revenir l’oignon et l’ail dans une grande poêle.",
       "Ajoutez les légumes, assaisonnez et laissez mijoter 20 minutes."
     ],
-    "image": "ratatouille.jpg"
+    "image": "../ratatouille.jpg"
   },
   {
     "id": 5,
@@ -95,7 +95,7 @@
       "Incorporez progressivement le lait, puis le beurre fondu.",
       "Faites cuire les crêpes dans une poêle chaude et huilée."
     ],
-    "image": "crepes.jpg"
+    "image": "../crepes.jpg"
   },
   {
     "id": 6,
@@ -118,7 +118,7 @@
       "Versez le lait de coco, mélangez et laissez mijoter 15 minutes.",
       "Servez avec du riz basmati."
     ],
-    "image": "curry_pois_chiches.jpg"
+    "image": "../curry_pois_chiches.jpg"
   },
   {
     "id": 7,
@@ -141,7 +141,7 @@
       "Disposez les rondelles de pommes de terre en couches, en salant, poivrant et ajoutant de la muscade entre chaque couche.",
       "Versez la crème, parsemez de noisettes de beurre, et enfournez 45 minutes."
     ],
-    "image": "gratin_dauphinois.jpeg"
+    "image": "../gratin_dauphinois.jpeg"
   },
   {
     "id": 8,
@@ -164,7 +164,7 @@
       "Mélangez les œufs, la crème, le lait, le sel, le poivre et la muscade, puis versez sur les lardons.",
       "Enfournez 30-35 minutes."
     ],
-    "image": "quiche_lorraine.jpg"
+    "image": "../quiche_lorraine.jpg"
   },
   {
     "id": 9,
@@ -185,7 +185,7 @@
       "Coupez les légumes en morceaux et faites-les griller au four avec de l’huile, du sel et du poivre.",
       "Mélangez le quinoa, les légumes et le jus de citron."
     ],
-    "image": "image_quinoa.jpg"
+    "image": "../image_quinoa.jpg"
   },
   {
     "id": 10,
@@ -204,7 +204,7 @@
       "Ajoutez les œufs, le lait et le beurre fondu. Mélangez jusqu’à obtenir une pâte lisse.",
       "Faites cuire des petites portions de pâte dans une poêle chaude."
     ],
-    "image": "pancacke.jpg"
+    "image": "../pancacke.jpg"
   },
   {
     "id": 11,
@@ -223,7 +223,7 @@
       "Saupoudrez de sucre et de cannelle, ajoutez le beurre fondu.",
       "Enfournez 25-30 minutes."
     ],
-    "image": "tartes_pommes.jpg"
+    "image": "../tartes_pommes.jpg"
   },
   {
     "id": 12,
@@ -244,7 +244,7 @@
       "Étalez la pâte dans un moule, disposez les pommes en fines lamelles.",
       "Mélangez le riz, les petits pois, le jambon en dés, l’omelette et la sauce soja dans la poêle"
     ],
-    "image": "riz_cantonnais.jpg"
+    "image": "../riz_cantonnais.jpg"
   },
   {
     "id": 13,
@@ -264,7 +264,7 @@
       "Battez les œufs avec la crème, le sel et le poivre.",
       "Versez les œufs dans la poêle avec les champignons et laissez cuire à feu doux."
     ],
-    "image": "omelette_champignons.jpg"
+    "image": "../omelette_champignons.jpg"
   },
   {
     "id": 14,
@@ -284,7 +284,7 @@
       "Ajoutez la mozzarella et les garnitures.",
       "Enfournez 10-12 minutes."
     ],
-    "image": "pizza.jpg"
+    "image": "../pizza.jpg"
   },
   {
     "id": 15,
@@ -309,7 +309,7 @@
       "Terminez par une couche de béchamel et de fromage râpé.",
       "Enfournez à 180°C pendant 30-35 minutes."
     ],
-    "image": "lasagne_bolognaise.jpg"
+    "image": "../lasagne_bolognaise.jpg"
   },
   {
     "id": 16,
@@ -329,7 +329,7 @@
       "Faites-les cuire dans le bouillon jusqu’à ce qu’ils soient tendres.",
       "Mixez la soupe, rectifiez l’assaisonnement, et servez chaud."
     ],
-    "image": "soupe_legumes.jpeg"
+    "image": "../soupe_legumes.jpeg"
   },
   {
     "id": 17,
@@ -349,7 +349,7 @@
       "Ajoutez la pâte de curry et le lait de coco. Mélangez bien.",
       "Laissez mijoter 15 minutes, puis servez avec du riz."
     ],
-    "image": "poulet_curry_coco.jpg"
+    "image": "../poulet_curry_coco.jpg"
   },
   {
     "id": 18,
@@ -368,7 +368,7 @@
       "Ajoutez les œufs, le lait et le beurre fondu. Mélangez bien.",
       "Faites cuire la pâte dans un gaufrier jusqu’à obtenir des gaufres dorées."
     ],
-    "image": "gauffres_sucrees.jpg"
+    "image": "../gauffres_sucrees.jpg"
   },
   {
     "id": 19,
@@ -389,7 +389,7 @@
       "Ajoutez les légumes coupés en morceaux et le bouillon.",
       "Laissez mijoter à feu doux pendant 30 minutes."
     ],
-    "image": "tajine_de_légumes.jpeg"
+    "image": "../tajine_de_légumes.jpeg"
   },
   {
     "id": 20,
@@ -408,6 +408,6 @@
       "Incorporez le sucre, les œufs, puis la farine. Mélangez bien.",
       "Versez dans un moule et enfournez 12-15 minutes pour un cœur fondant."
     ],
-    "image": "fondant_chocolat.jpg"
+    "image": "../fondant_chocolat.jpg"
   }
 ]
