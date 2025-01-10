@@ -1,25 +1,28 @@
 .catalogue {
   text-align: center;
-  padding: 20px;
+
   background-color: #fffae8;
   img {
-    width: 90px;
-    padding-top: 20px;
+    width: 100px;
   }
-}
+  h1 {
+    font-family: $title-font;
+  }
 
-.image-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Deux colonnes */
-  gap: 10px; /* Espacement entre les images */
-  margin: 20px;
-  margin-bottom: 100px; /*ligne du bas*/
-}
+  .image-grid {
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(2, 1fr); /* Deux colonnes */
+    gap: 10px; /* Espacement entre les images */
+    margin: 20px;
+    margin-bottom: 100px; /*ligne du bas*/
+  }
 
-.image-grid img {
-  width: 100%; /* Images s'adaptent à la largeur de la colonne */
-  height: auto; /* Préserve les proportions */
-  object-fit: contain;
-  border: 0px #090000; /* Bordure facultative */
-  border-radius: 10px; /* Coins arrondis */
+  .image-grid img {
+    width: 100%; /* Images s'adaptent à la largeur de la colonne */
+    height: 100%; /* Préserve les proportions */
+    object-fit: cover;
+    border: 0px #090000; /* Bordure facultative */
+    border-radius: 10px; /* Coins arrondis */
+  }
 }
