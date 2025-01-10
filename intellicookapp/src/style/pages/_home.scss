@@ -2,7 +2,7 @@
   .body_Home {
     padding: 0;
     margin: 0;
-    width: 360px;
+    width: 100vw;
     height: 700px;
     background: url(../../assets/images/image_fond_accueil_modifiee.jpg)
       center/cover;
@@ -38,7 +38,7 @@
       border: 1px solid #000;
       border-radius: 10px;
       padding: 10px;
-      margin-left: 10px;
+      margin-left: 15px;
       margin-right: 10px;
       text-align: center;
     }
@@ -51,7 +51,6 @@
   }
 
   .search {
-    padding-left: 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
@@ -59,21 +58,22 @@
     flex-direction: column;
     gap: 20px;
     margin-top: 10px;
+    padding: 20px;
     .title_Img {
       width: 100%;
+      @include verticalCenter;
       h3 {
-        font-size: 1.2em;
-        margin-top: 60px;
+        font-size: 1.1em;
         position: absolute;
         z-index: 5;
-        color: $white-color;
+        color: #fff;
         width: 150px;
         text-align: center;
       }
-      img {
+      .img-Home {
         text-align: center;
         position: relative;
-        width: 100px;
+        width: 150px;
         height: 100px;
         z-index: 1;
         border-radius: 10px;
@@ -111,14 +111,14 @@
       text-align: center;
 
       img {
-        width: 70%;
+        width: 220px;
         height: 150px;
       }
     }
   }
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (min-width: 1920px) {
   .body_Home {
     width: 100%;
 

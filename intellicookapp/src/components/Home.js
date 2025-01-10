@@ -37,7 +37,11 @@ function Home() {
             onClick={() => navigate(`/recipe/${recipe.name}`)}
           >
             <h3>{recipe.name}</h3>
-            <img src={recipe.image} alt={recipe.name}></img>
+            <img
+              className="img-Home"
+              src={recipe.image}
+              alt={recipe.name}
+            ></img>
           </div>
         ))}
       </div>
