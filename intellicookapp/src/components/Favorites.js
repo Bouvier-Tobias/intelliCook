@@ -12,20 +12,25 @@ function Favorites() {
   }
 
   return (
-    <div>
+    <div className="favoris">
       <NavBar />
-      <h1>Mes Favoris</h1>
       {favorites.map((recipe) => (
-        <div key={recipe.name}>
-          <h3 onClick={() => navigate(`/recipe/${recipe.name}`)}>
-            <div className="image">
-              <div>{recipe.name}</div>
-              <img src={recipe.image} alt={recipe.name} />
-            </div>
-          </h3>
-          <button onClick={() => removeFavorite(recipe.name)}>
-            Retirer des Favoris
-          </button>
+        <div className="grid_Favoris">
+          <div className="box_Img">
+            <h3>{recipe.name}</h3>
+            <img
+              className="img_favoris"
+              onClick={() => navigate(`/recipe/${recipe.name}`)}
+              src={recipe.image}
+              alt={recipe.name}
+            />
+            <img
+              className="icone_favoris"
+              onClick={() => removeFavorite(recipe.name)}
+              src="/icones/Icone-Heart-Pink.svg"
+              alt={recipe.name}
+            ></img>
+          </div>
         </div>
       ))}
     </div>

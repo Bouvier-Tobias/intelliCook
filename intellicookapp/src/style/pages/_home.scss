@@ -3,9 +3,8 @@
     padding: 0;
     margin: 0;
     width: 100vw;
-    height: 100%;
-    background: url(../../assets/images/image_fond_accueil_modifiee.jpg)
-      center/cover;
+    height: 700px;
+    background: url(/assets/images/image_fond_accueil_modifiee.jpg) center/cover;
     display: flex;
     justify-content: flex-start;
     align-content: center;
@@ -69,6 +68,7 @@
         color: #fff;
         width: 150px;
         text-align: center;
+        z-index: 2;
       }
       .img-Home {
         text-align: center;
