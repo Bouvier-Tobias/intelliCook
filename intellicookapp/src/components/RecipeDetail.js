@@ -4,7 +4,6 @@ import recipes from "../data/recipe.json";
 import { addFavorite, removeFavorite, isFavorite } from "../utils/favorites";
 import Navbar from "./NavBar";
 
-
 function RecipeDetail() {
   const { name } = useParams();
   const recipe = recipes.find((r) => r.name === name);
@@ -23,11 +22,11 @@ function RecipeDetail() {
 
   return (
     <div className="body_recipedetail">
-
       <Navbar />
 
       <h1>{recipe.name}</h1>
       <div className="image_block">
+<<<<<<< HEAD
       <img src={recipe.image} alt={recipe.name}></img>
       <button onClick={handleFavoriteClick}>
         <img src="./../../public/icones/Icone-Heart.svg" alt=""></img>
@@ -35,28 +34,36 @@ function RecipeDetail() {
           ? "Retirer des Favoris"
           : "Ajouter aux Favoris"}
       </button>
+=======
+        <img src={recipe.image} alt={recipe.name}></img>
+        <button onClick={handleFavoriteClick}>
+          {isFavorite(recipe.name)
+            ? "Retirer des Favoris"
+            : "Ajouter aux Favoris"}
+        </button>
+>>>>>>> 133ed4e1825dbaacb4466dc2a7ae5517755661c3
       </div>
       <div className="ingredients_block">
-      <h2>Ingrédients :</h2>
-      <ul>
-        {recipe.ingredients.map((ingredient, index) => (
-          <li key={index}>{ingredient}</li>
-        ))}
+        <h2>Ingrédients :</h2>
+        <ul>
+          {recipe.ingredients.map((ingredient, index) => (
+            <li key={index}>{ingredient}</li>
+          ))}
         </ul>
-          </div>
-        <hr></hr>
-        <div className="materiel_block">
+      </div>
+      <hr></hr>
+      <div className="materiel_block">
         <h2>Matériel nécessaire :</h2>
         <ul>
           {recipe.materiel.map((materiel, index) => (
             <li key={index}> {materiel} </li>
-          ) )}
+          ))}
         </ul>
-        </div>
-        <hr></hr>
-        <div className="preparation_block">
-      <h2>Préparation :</h2>
-      <p>{recipe.instruction}</p>
+      </div>
+      <hr></hr>
+      <div className="preparation_block">
+        <h2>Préparation :</h2>
+        <p>{recipe.instruction}</p>
       </div>
     </div>
   );
