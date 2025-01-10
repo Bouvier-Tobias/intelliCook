@@ -1,14 +1,11 @@
 .catalogue {
   text-align: center;
   padding: 20px;
-}
-
-img {
-  width: 90px;
-  padding-top: 20px;
-}
-.page {
   background-color: #fffae8;
+  img {
+    width: 90px;
+    padding-top: 20px;
+  }
 }
 
 .image-grid {
@@ -21,8 +18,8 @@ img {
 
 .image-grid img {
   width: 100%; /* Images s'adaptent à la largeur de la colonne */
-  height: 100%; /* Préserve les proportions */
+  height: auto; /* Préserve les proportions */
   object-fit: contain;
-  border: 0px solid #090000; /* Bordure facultative */
-  border-radius: 5px; /* Coins arrondis */
+  border: 0px #090000; /* Bordure facultative */
+  border-radius: 10px; /* Coins arrondis */
 }
