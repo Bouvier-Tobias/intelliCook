@@ -26,7 +26,11 @@ function RecipeDetail() {
 
       <h1>{recipe.name}</h1>
       <div className="image_block">
-        <img className="recipe_image" src={recipe.image} alt={recipe.name}></img>
+        <img
+          className="recipe_image"
+          src={recipe.image}
+          alt={recipe.name}
+        ></img>
 
         <img
           className="icone-Heart"
@@ -34,9 +38,7 @@ function RecipeDetail() {
           src="/icones/Icone-Heart.svg"
           alt=""
         ></img>
-        {isFavorite(recipe.name)
-          ? "Retirer des Favoris"
-          : "Ajouter aux Favoris"}
+        {isFavorite(recipe.name) ? "/Icone-Heart-Pink.svg" : "/Icone-Heart.svg"}
       </div>
       <div className="ingredients_block">
         <h2>Ingrédients :</h2>
