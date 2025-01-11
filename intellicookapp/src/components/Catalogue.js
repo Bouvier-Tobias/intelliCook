@@ -29,7 +29,9 @@ function RecipeCard({ recipe }) {
         className="favorite-icon"
         onClick={handleFavoriteClick}
         src={
-          favorite ? "/icones/Icone-Heart-Pink.svg" : "/icones/Icone-Heart.svg"
+          favorite
+            ? "/icones/Icone-Heart-red.svg"
+            : "/icones/Icone-Heart-Black.svg"
         }
         alt={favorite ? "Retirer des favoris" : "Ajouter aux favoris"}
       />

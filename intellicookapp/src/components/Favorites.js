@@ -38,8 +38,8 @@ function Favorites() {
               onClick={() => handleRemoveFavorite(recipe.name)}
               src={
                 favorites.find((fav) => fav.name === recipe.name)
-                  ? "/icones/Icone-Heart-pink.svg"
-                  : "/icones/Icone-Heart-pink.svg"
+                  ? "/icones/Icone-Heart-red.svg"
+                  : "/icones/Icone-Heart-Black.svg"
               }
               alt={recipe.name}
             />

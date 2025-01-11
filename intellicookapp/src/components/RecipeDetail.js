@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import { useParams } from "react-router-dom";
 import recipes from "../data/recipe.json";
 import { addFavorite, removeFavorite, isFavorite } from "../utils/favorites";
@@ -7,17 +7,19 @@ import Navbar from "./NavBar";
 function RecipeDetail() {
   const { name } = useParams();
   const recipe = recipes.find((r) => r.name === name);
+  const [favorite, setFavorite] = useState(isFavorite(recipe.name));
 
   if (!recipe) {
     return <p>Recette non trouvée.</p>;
   }
 
   const handleFavoriteClick = () => {
-    if (isFavorite(recipe.name)) {
+    if (favorite) {
       removeFavorite(recipe.name);
     } else {
       addFavorite(recipe);
     }
+    setFavorite(!favorite); // Mise à jour de l'état local
   };
 
   return (
@@ -33,12 +35,15 @@ function RecipeDetail() {
         ></img>
 
         <img
-          className="icone-Heart"
+          className="favorite-icon"
           onClick={handleFavoriteClick}
-          src="/icones/Icone-Heart.svg"
-          alt=""
-        ></img>
-        {isFavorite(recipe.name) ? "/Icone-Heart-Pink.svg" : "/Icone-Heart.svg"}
+          src={
+            favorite
+              ? "/icones/Icone-Heart-red.svg"
+              : "/icones/Icone-Heart-Black.svg"
+          }
+          alt={favorite ? "Retirer des favoris" : "Ajouter aux favoris"}
+        />
       </div>
       <div className="ingredients_block">
         <h2>Ingrédients :</h2>
