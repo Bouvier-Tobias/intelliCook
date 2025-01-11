@@ -39,7 +39,7 @@ function Favorites() {
               src={
                 favorites.find((fav) => fav.name === recipe.name)
                   ? "/icones/Icone-Heart-pink.svg"
-                  : "/icones/Icone-Heart.svg"
+                  : "/icones/Icone-Heart-pink.svg"
               }
               alt={recipe.name}
             />
