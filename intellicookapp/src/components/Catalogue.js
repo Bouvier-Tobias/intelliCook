@@ -43,7 +43,7 @@ function Catalogue() {
   return (
     <div className="catalogue">
       <NavBar />
-      <img src="./logo_version_claire.png" alt="" />
+      <img className="logo" src="./logo_version_claire.png" alt="" />
       <div className="box-recipe">
         <h1>Catalogue des Recettes</h1>
 
