@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { useParams } from "react-router-dom";
 import recipes from "../data/recipe.json";
-import { addFavorite, removeFavorite, isFavorite } from "../utils/favorites";
+import { addFavorite, isFavorite, removeFavorite } from "../utils/favorites";
+import Logo from "./Logo";
 import Navbar from "./NavBar";
 
 function RecipeDetail() {
@@ -25,7 +26,7 @@ function RecipeDetail() {
   return (
     <div className="body_recipedetail">
       <Navbar />
-
+      <Logo />
       <h1>{recipe.name}</h1>
       <div className="image_block">
         <img

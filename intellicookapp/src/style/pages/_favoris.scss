@@ -1,7 +1,13 @@
+.phrase {
+  padding-top: 25px;
+  text-align: center;
+  font-family: $title-font;
+}
 .favoris {
   width: 360px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+
   .grid_Favoris {
     .box_Img {
       display: flex;
@@ -12,9 +18,10 @@
       gap: 10px;
       position: relative;
       margin-top: 20px;
+      text-align: center;
 
       h3 {
-        font-size: 0.9em;
+        font-size: 1.2em;
         font-family: $content-font;
       }
       .img_favoris {
@@ -37,6 +44,42 @@
         &:hover {
           cursor: pointer;
           transform: scale(1.5);
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1280px) {
+  .favoris {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    .grid_Favoris {
+      .box_Img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        position: relative;
+        margin-top: 20px;
+
+        .img_favoris {
+          width: 250px;
+          height: 150px;
+          border-radius: 10px;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+        .icone_favoris {
+          position: absolute;
+          top: 30px;
+          left: 75px;
+          color: $pink-color;
+          transition: 250ms ease-out;
         }
       }
     }
