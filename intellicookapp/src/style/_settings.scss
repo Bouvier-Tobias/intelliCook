@@ -8,7 +8,9 @@
 }
 $title-font: "title-font", serif;
 $content-font: "content-font", sans-serif;
-
+html {
+  background-color: #fffae8;
+}
 * {
   padding: 0;
   margin: 0;
@@ -17,6 +19,8 @@ $content-font: "content-font", sans-serif;
 
 $black_color: #000;
 $white_color: #fff;
+$brown_color: #442a00;
+$pink-color: #fb6f92;
 
 @mixin verticalCenter {
   display: flex;

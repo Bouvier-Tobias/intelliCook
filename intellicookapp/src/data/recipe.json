@@ -1,0 +1,413 @@
+[
+  {
+    "id": 1,
+    "name": "Spaghetti à l'ail et au persil",
+    "ingredients": [
+      "250 gr de spaghetti",
+      "3 gousses d'ail",
+      "4 c. a soupe d'huile",
+      "1 bouquet de persil frais",
+      "sel",
+      "poivre"
+    ],
+    "materiel": ["casserole", "poele", "passoir"],
+    "instruction": [
+      "Faites cuire les spaghetti dans une grande casserole d'eau salée, puis égouttez-les.",
+      "Dans une poêle, faites revenir l'ail haché dans l'huile d'olive à feu doux.",
+      "Ajoutez les spaghetti et le persil haché. Mélangez bien.",
+      "Assaisonnez de sel et de poivre. Servez chaud."
+    ],
+    "image": "../spaghetti_ail.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Poulet au citron",
+    "ingredients": [
+      "4 cuisses de poulet",
+      "2 citrons",
+      "3 branches de thym",
+      "3 c.à soupe d'huile d'olive",
+      "sel",
+      "poivre"
+    ],
+    "materiel": ["four", "plat"],
+    "instruction": [
+      "prechauffez le four à 200°C",
+      "Déposez les cuisses de poulet dans un plat.",
+      " Arrosez-les de jus de citron et d'huile d'olive.",
+      "Parsemez de thym, salez, poivrez.",
+      "Enfournez pendant 35-40 minutes."
+    ],
+    "image": "../poulet-citron-thym.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Soupe de lentilles corail",
+    "ingredients": [
+      "200g de lentilles corail",
+      "1 oignon",
+      "1 carotte",
+      "1 c. à soupe de concentré de tomate",
+      "1 litre de bouillon de légumes",
+      "1 c.à café de cumin"
+    ],
+    "materiel": ["casserole"],
+    "instruction": [
+      "Faites revenir l’oignon émincé dans une casserole avec un peu d’huile.",
+      "Ajoutez la carotte coupée en dés et les lentilles corail.",
+      "Versez le bouillon, ajoutez le concentré de tomate et le cumin.",
+      "Laissez mijotez 20 minutes, puis mixez"
+    ],
+    "image": "../soupe_lentille_corail.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Ratatouille rapide",
+    "ingredients": [
+      "1 courgette",
+      "1 oignon",
+      "1 aubergine",
+      "3 c.à soupe d'huile d'olive",
+      "1 poivron rouge",
+      "2 tomates",
+      "2 gousses d'ail"
+    ],
+    "materiel": ["poele"],
+    "instruction": [
+      "Coupez tous les légumes en petits morceaux.",
+      "Faites revenir l’oignon et l’ail dans une grande poêle.",
+      "Ajoutez les légumes, assaisonnez et laissez mijoter 20 minutes."
+    ],
+    "image": "../ratatouille.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Crêpes classiques",
+    "ingredients": [
+      "250 gr de farine",
+      "3 oeufs",
+      "sel",
+      "50gr de beurre fondu"
+    ],
+    "materiel": ["poele", "saladier"],
+    "instruction": [
+      "Mélangez la farine, les œufs et le sel.",
+      "Incorporez progressivement le lait, puis le beurre fondu.",
+      "Faites cuire les crêpes dans une poêle chaude et huilée."
+    ],
+    "image": "../crepes.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Curry de pois chiches",
+    "ingredients": [
+      "1 boite de pois chiches",
+      "1 oignon",
+      "2 tomates",
+      "200ml de lait de coco",
+      "1 c.à soupe de pâte de curry",
+      "1 c.à café de curcuma",
+      "huile",
+      "sel",
+      "poivre"
+    ],
+    "materiel": ["casserole"],
+    "instruction": [
+      "Faites revenir l’oignon émincé dans un peu d’huile.",
+      "Ajoutez les tomates en dés, les pois chiches, la pâte de curry et le curcuma.",
+      "Versez le lait de coco, mélangez et laissez mijoter 15 minutes.",
+      "Servez avec du riz basmati."
+    ],
+    "image": "../curry_pois_chiches.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Gratin dauphinois",
+    "ingredients": [
+      "1kg de pomme de terre",
+      "400 ml de lait",
+      "1 gousse d'ail",
+      "200ml de lait de coco",
+      "50g de beurre",
+      "muscade",
+      "sel",
+      "poivre"
+    ],
+    "materiel": ["four", "plat à gratin"],
+    "instruction": [
+      "Préchauffez le four à 180°C.",
+      "Épluchez et coupez les pommes de terre en rondelles fines.",
+      "Frottez un plat à gratin avec l’ail, puis beurrez-le.",
+      "Disposez les rondelles de pommes de terre en couches, en salant, poivrant et ajoutant de la muscade entre chaque couche.",
+      "Versez la crème, parsemez de noisettes de beurre, et enfournez 45 minutes."
+    ],
+    "image": "../gratin_dauphinois.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Quiche loraine",
+    "ingredients": [
+      "1 pâte brisé",
+      "200 gr de lardons",
+      "3 oeufs",
+      "200ml de crème fraiche",
+      "100ml de lait",
+      "muscade",
+      "sel",
+      "poivre"
+    ],
+    "materiel": ["four", "moule", "poele"],
+    "instruction": [
+      "Préchauffez le four à 180°C.",
+      "Étalez la pâte dans un moule, piquez-la avec une fourchette.",
+      "Faites revenir les lardons, puis répartissez-les sur la pâte.",
+      "Mélangez les œufs, la crème, le lait, le sel, le poivre et la muscade, puis versez sur les lardons.",
+      "Enfournez 30-35 minutes."
+    ],
+    "image": "../quiche_lorraine.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Salade de quinoa et légumes grillés",
+    "ingredients": [
+      "200gr de quinoa",
+      "1 courgette",
+      "1 poivron",
+      "1 aubergine",
+      "1 citron",
+      "3 c.à soupe d' huile d'olive",
+      "sel",
+      "poivre"
+    ],
+    "materiel": ["casserole", "four", "plat"],
+    "instruction": [
+      "Faites cuire le quinoa selon les instructions du paquet.",
+      "Coupez les légumes en morceaux et faites-les griller au four avec de l’huile, du sel et du poivre.",
+      "Mélangez le quinoa, les légumes et le jus de citron."
+    ],
+    "image": "../image_quinoa.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Pancackes moelleux",
+    "ingredients": [
+      "200 gr de farine",
+      "1 sachet de levure chimique",
+      "30 gr de sucre",
+      "2 oeufs",
+      "300 ml de lait",
+      "30 gr de beurre fondu"
+    ],
+    "materiel": ["poele", "plat"],
+    "instruction": [
+      "Mélangez les ingrédients secs.",
+      "Ajoutez les œufs, le lait et le beurre fondu. Mélangez jusqu’à obtenir une pâte lisse.",
+      "Faites cuire des petites portions de pâte dans une poêle chaude."
+    ],
+    "image": "../pancacke.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Tartes aux pommes",
+    "ingredients": [
+      "1 pâte feuilletée",
+      "3 pommes",
+      "50gr de sucre",
+      "cannelle",
+      "30 gr de beurre fondu"
+    ],
+    "materiel": ["four", "moule"],
+    "instruction": [
+      "Préchauffez le four à 180°C.",
+      "Étalez la pâte dans un moule, disposez les pommes en fines lamelles.",
+      "Saupoudrez de sucre et de cannelle, ajoutez le beurre fondu.",
+      "Enfournez 25-30 minutes."
+    ],
+    "image": "../tartes_pommes.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Riz cantonnais",
+    "ingredients": [
+      "200 gr de riz",
+      "2 oeufs",
+      "100 gr de petits pois",
+      "100 gr de jambon",
+      "huile",
+      "sel",
+      "poivre",
+      "2 c.à soupe de sauce soja"
+    ],
+    "materiel": ["poele", "moule"],
+    "instruction": [
+      "Faites cuire le riz et les petits pois.",
+      "Étalez la pâte dans un moule, disposez les pommes en fines lamelles.",
+      "Mélangez le riz, les petits pois, le jambon en dés, l’omelette et la sauce soja dans la poêle"
+    ],
+    "image": "../riz_cantonnais.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Omelette aux champignons",
+    "ingredients": [
+      "200gr de champignons",
+      "4 oeufs",
+      "1 échalote",
+      "2 c.à soupe de crème fraiche",
+      "beurre",
+      "sel",
+      "poivre"
+    ],
+    "materiel": ["poele", "saladier"],
+    "instruction": [
+      "Nettoyez et émincez les champignons. Faites-les revenir avec l’échalote dans du beurre.",
+      "Battez les œufs avec la crème, le sel et le poivre.",
+      "Versez les œufs dans la poêle avec les champignons et laissez cuire à feu doux."
+    ],
+    "image": "../omelette_champignons.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Pizza maison",
+    "ingredients": [
+      "200gr de sauce tomate",
+      "1 pâte à pizza",
+      "150gr de mozzarella",
+      "jambon",
+      "champignons",
+      "olives"
+    ],
+    "materiel": ["four", "plaque de cuisson"],
+    "instruction": [
+      "Préchauffez le four à 220°C.",
+      "Étalez la sauce tomate sur la pâte.",
+      "Ajoutez la mozzarella et les garnitures.",
+      "Enfournez 10-12 minutes."
+    ],
+    "image": "../pizza.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Lasagnes à la bolognaise",
+    "ingredients": [
+      "200 gr de feuilles de lasagnes",
+      "1 oignon",
+      "400 gr de viande hachée",
+      "2 gousses d'ail",
+      "500 gr de sauce tomate",
+      "50 0ml de béchamel",
+      "100 gr de fromage râpé",
+      "huile",
+      "sel",
+      "poivre"
+    ],
+    "materiel": ["poele", "four"],
+    "instruction": [
+      "Faites revenir l’oignon et l’ail émincés dans un peu d’huile. ",
+      "Ajoutez la viande hachée, laissez cuire, puis incorporez la sauce tomate.",
+      "Dans un plat à gratin, alternez des couches de sauce, de feuilles de lasagnes et de béchamel.",
+      "Terminez par une couche de béchamel et de fromage râpé.",
+      "Enfournez à 180°C pendant 30-35 minutes."
+    ],
+    "image": "../lasagne_bolognaise.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Soupe de légumes",
+    "ingredients": [
+      "2 carottes",
+      "2 pommes de terre",
+      "1 poireau",
+      "1 courgette",
+      "1 litre de bouillon de légumes",
+      "sel",
+      "poivre"
+    ],
+    "materiel": ["casserole", "mixeur"],
+    "instruction": [
+      "Épluchez et coupez les légumes en morceaux.",
+      "Faites-les cuire dans le bouillon jusqu’à ce qu’ils soient tendres.",
+      "Mixez la soupe, rectifiez l’assaisonnement, et servez chaud."
+    ],
+    "image": "../soupe_legumes.jpeg"
+  },
+  {
+    "id": 17,
+    "name": "Poulet au curry et au lait de coco",
+    "ingredients": [
+      "4 filets de poulet",
+      "1 oignon",
+      "200ml de lait de coco",
+      "1 c.à soupe de pâte de curry",
+      "1 c.à soupe d'huile",
+      "sel",
+      "poivre"
+    ],
+    "materiel": ["poele"],
+    "instruction": [
+      "Coupez le poulet en morceaux et faites-le revenir avec l’oignon émincé dans l’huile.",
+      "Ajoutez la pâte de curry et le lait de coco. Mélangez bien.",
+      "Laissez mijoter 15 minutes, puis servez avec du riz."
+    ],
+    "image": "../poulet_curry_coco.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Gaufres sucrées",
+    "ingredients": [
+      "250 gr de farine",
+      "2 oeufs",
+      "50gr de sucre",
+      "500ml de lait",
+      "1 sachet de levure chimique",
+      "50gr de beurre fondu"
+    ],
+    "materiel": ["gaufrier", "cul de poule"],
+    "instruction": [
+      "Mélangez les ingrédients secs.",
+      "Ajoutez les œufs, le lait et le beurre fondu. Mélangez bien.",
+      "Faites cuire la pâte dans un gaufrier jusqu’à obtenir des gaufres dorées."
+    ],
+    "image": "../gauffres_sucrees.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Tajine de légumes",
+    "ingredients": [
+      "2 carottes",
+      "1 oignon",
+      "1 courgette",
+      "1 poivron",
+      "2 tomates",
+      "2 c.à café de ra-el-hanout",
+      "2 c.à soupe d'huile d'olive",
+      "200ml de bouillon de légumes"
+    ],
+    "materiel": ["tajine", "casserole"],
+    "instruction": [
+      "Faites revenir l’oignon dans l’huile avec les épices.",
+      "Ajoutez les légumes coupés en morceaux et le bouillon.",
+      "Laissez mijoter à feu doux pendant 30 minutes."
+    ],
+    "image": "../tajine_de_légumes.jpeg"
+  },
+  {
+    "id": 20,
+    "name": "Fondant au chocolat",
+    "ingredients": [
+      "200 gr de chocolat noir",
+      "150 gr beurre",
+      "150 gr sucre",
+      "3 oeufs",
+      "50 gr de farine"
+    ],
+    "materiel": ["four", "casserole", "cul de poule"],
+    "instruction": [
+      "Préchauffez le four à 180°C.",
+      "Faites fondre le chocolat et le beurre au bain-marie.",
+      "Incorporez le sucre, les œufs, puis la farine. Mélangez bien.",
+      "Versez dans un moule et enfournez 12-15 minutes pour un cœur fondant."
+    ],
+    "image": "../fondant_chocolat.jpg"
+  }
+]
