@@ -1,0 +1,42 @@
+.navBar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  background-color: $brown-color;
+  gap: 60px;
+  z-index: 5;
+
+  a {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: $white-color;
+    font-family: $content-font;
+    font-weight: 700;
+  }
+
+  img {
+    width: 25px;
+    color: #fff;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .navBar {
+    width: 100%;
+    height: 70px;
+    justify-content: space-around;
+    position: relative;
+    a {
+      font-size: 1.3em;
+      font-family: $content-font;
+      font-weight: 700;
+    }
+  }
+}
